@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1> Bienvenue sur Mon Site</h1>
+		<p class=" texte"> Un site coloré et sémnatique </p>
+	</header>
+<ul class="menu">
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#">Articles</a></li>
+    <li><a href="#">À propos</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+<main>
+	<article>
+		<h2> Premier article</h2>
+		<p class="article"> Voici le contenu du premier article. Il a un fond vert et montre comment styliser sans balise div.</p>
+	</article>
+	<article>
+		<h2> Deuxième Article</h2>
+		<p class="article"> Le deuxième article utilise un fond bleu turquoise. Chaque article a sa propre couleur grâce à nth-of-type.</p>
+	</article>
+	<article>
+		<h2> Troisième Article</h2>
+		<p class="article">Le troisième article a un fond jaune avec un texte noir pour rester lisible. Le style est simple mais clair.</p>
+	</article>
+	
+	
+		
+           
+	</article>
+</main>
+<footer>
+	 © 2025 Mon Site — Tous droits réservés
+</footer>
+
+
+<style>
+	header{
+		background-color: #007AFF;
+	}
+	h1{
+		padding-top: 10px;
+		color: white;
+		text-align: center;
+	}
+
+
+	.texte{
+		color: white;
+		text-align: center;
+		margin-bottom: -16px;
+		padding-bottom: 21px;
+	}
+	.menu {
+    list-style: none;
+    /*margin: 0;*/
+    padding: 10px 0;
+    text-align: center;
+    background-color: #005bbb;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+main{
+	padding: 20px;
+}
+
+ article {
+
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            color: white;
+            text-align: left;
+
+ }
+
+ article:nth-of-type(1) {
+            background-color: #2e9e44; 
+
+        }
+
+
+        article:nth-of-type(2) {
+            background-color: #1db4c1; 
+
+        }
+
+        article:nth-of-type(3) {
+            background-color: #eab308; 
+            color: black;
+
+        }
+
+         footer {
+            background-color: #0077f7;
+            color: white;
+            text-align: center;
+            padding: 15px;
+</style>
+</body>
+</html>
